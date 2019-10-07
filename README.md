@@ -10,11 +10,11 @@ To get started:
 
 `npm install -g sass`
 
-3. Run the `watch` command so your stylesheet updates everytime you add/save a new file to the `scss` directory:
+3. Run the `watch` command so your stylesheet updates every time you add/save a new file to the `scss` directory:
 
 `sass --watch styles/scss/styles.scss:styles/css/styles.css`
 
-4. In Finder, open `createo-or-join.html` in the browser of your choice to view the page.
+4. In Finder, open `create-or-join.html` in the browser of your choice to view the page.
 
 5. Open a new window in the terminal and create a new branch to start adding styles:
 
