@@ -1,0 +1,17 @@
+/// Helper to create a flexbox parent
+/// @param {Flex Direction} $direction [row] - flex orientation
+/// @param {Flex Display} $display [flex] - flex display type
+/// @param {Justification} $justify [space-between] - horizontal space distribution
+/// @param {Alignment} $align [center] - vertical space alignment
+/// @param {Wrap} $wrap [wrap] - wrapping behavior of flex children
+@mixin flex($direction: row,
+            $display: flex,
+            $justify: space-between,
+            $align: center,
+            $wrap: wrap) {
+  display: $display;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
