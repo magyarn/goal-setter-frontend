@@ -16,4 +16,8 @@ To get started:
 
 4. In Finder, open `createo-or-join.html` in the browser of your choice to view the page.
 
-5. Open the project folder in a text editor of your choice and code away!
+5. Open a new window in the terminal and create a new branch to start adding styles:
+
+`git checkout -b your-new-branch-name`
+
+6. Open the project in a text editor of your choice and have fun!
